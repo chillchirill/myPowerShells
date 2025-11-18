@@ -2,10 +2,10 @@
 my PowerShell scripts
 
 
-##############################################
+
 # ## USAGE
 mkcd name_of_directory — Create a directory, enter it, open in VS Code
-##############################################
+
 ```powershell
 function mkcd {
     param (
@@ -36,9 +36,9 @@ function mkcd {
 ```
 
 
-##############################################
+
 # UA -FolderName name_of_directory — Find latest ZIP in Downloads, extract all files to C:\Users\Kiril\name_of_direcory, open in VS Code
-##############################################
+
 ```powershell
 function UA {
     param(
